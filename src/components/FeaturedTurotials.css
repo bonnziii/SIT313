@@ -1,0 +1,67 @@
+/* Container for the featured tutorials */
+.featured-tutorials {
+  padding: 40px;
+  text-align: center;
+  background-color: #f4f4f4;
+  margin: 20px 0;
+}
+
+/* Header styling */
+.featured-tutorials h2 {
+  font-size: 2em;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+/* Card group styling */
+.tutorials-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+/* Individual card styling */
+.tutorial-card {
+  width: 30%;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Card hover effect */
+.tutorial-card:hover {
+  transform: scale(1.03);
+}
+
+/* Image styling inside the card */
+.tutorial-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Card content styling */
+.tutorial-content {
+  margin: 10px 0;
+  color: #555;
+}
+
+/* Card rating and author styling */
+.tutorial-rating-author {
+  margin-top: 15px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Star icon styling */
+.tutorial-rating-author span {
+  color: #f4c542;
+  margin-right: 5px;
+}
+
